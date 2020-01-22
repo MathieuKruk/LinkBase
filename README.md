@@ -4,7 +4,7 @@
 
 <ul>
   <li>LinkBase is a static webpage made for personnal use.</li>
-  <li>It regroup all my social media links together.</li>
+  <li>It regroups all my social media links together.</li>
 </ul>
 
 <hr>
