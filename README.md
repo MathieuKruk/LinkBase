@@ -45,7 +45,7 @@ Logs
 
 ## ◾ Screenshots
 
-### A little preview:
+### A little preview of the mobile display:
 <p align="center">
   <img src="./screenshoots/linkbase.png">
 </p>
