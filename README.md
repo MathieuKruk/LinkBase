@@ -45,6 +45,11 @@ Logs
 
 ## ◾ Screenshots
 
+### A little preview:
+<p align="center">
+  <img src="./screenshoots/linkbase.png">
+</p>
+
 ## ◾ Technology
 
 1. Front-end
