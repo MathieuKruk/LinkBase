@@ -1,9 +1,5 @@
 # LinkBase
-<p align="center">
-Older version of the the project: <br>
--> https://github.com/MathieuKruk/Poo-Clicker-V1 <-
-</p>
-  
+
 ## ◾ Features
 
 <ul>
