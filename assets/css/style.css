@@ -1,0 +1,163 @@
+/* HTML TAGS */
+body {
+    font-family: 'Oxygen', sans-serif;
+    width: 100%;
+    background: rgb(158,155,255);
+    background: linear-gradient(0deg, rgba(158,155,255,1) 0%, rgba(187,141,255,1) 43%, rgba(0,0,0,1) 100%);
+}
+
+/* CLASSES */
+/* Jumbotron */
+.jumbotron {
+    height: 6rem;
+    font-family: 'Bangers', cursive;
+    background-image: url(../img/techno.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: solid 2px black;
+    border-top: none;
+}
+
+.jumbotronTitle {
+    background-color: #8963BA;
+    border: solid 2px black;
+    padding: 0.5rem 1rem 2rem 1rem;
+    color: black;
+    font-size: 3rem;
+    height: 5rem;
+}
+
+/* Image */
+.imgProfile {
+    border: solid 2px black;
+    height: 12rem;
+    width: 12rem;
+}
+
+/* Black Rows */
+.blackRow {
+    background-color: #3C1B43;
+    border: solid 1px black;
+    border-right: none;
+    border-left: none;
+    color: white;
+    padding: 1rem 0rem 1rem 0rem;
+}
+.littleBlackRow {
+    background-color: black;
+    border: solid 1px black;
+    border-right: none;
+    border-left: none;
+    color: white;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    font-size: 1rem;
+}
+
+/* Links */
+.link {
+    width: 4rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: solid 2px white;
+    border-radius: 25px;
+    transition: all 0.2s;
+}
+.link:hover {
+    background-color: black;
+    color: white;
+    transform: scaleY(1.2),
+}
+a {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+    transform: scaleY(1.2),
+}
+
+/* RIBBON */
+/* Specifying the name for animation keyframes and keyframes themselves */
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+@-webkit-keyframes ticker {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+  
+@keyframes ticker {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+    100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+}
+  
+.ticker-wrap {
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 2rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-left: 100%;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+}
+  
+.ticker-wrap .ticker {
+    display: inline-block;
+    height: 2rem;
+    line-height: 2rem;
+    white-space: nowrap;
+    padding-right: 100%;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
+  }
+  
+  .ticker-wrap .ticker__item {
+    font-family: 'Space Mono', monospace;
+    display: inline-block;
+    padding: 0 2rem;
+    font-size: 1rem;
+    color: white;
+  }
+  
+/* JUMBOTRON ANIMATION */
+/*# sourceMappingURL=App.css.map */
+
+body{
+    text-align:center;
+
+  }
+  h1{
+    text-transform:uppercase;
+    font-size:8rem;
+  }
