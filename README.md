@@ -53,7 +53,7 @@ Logs
    - [Bootstrap](https://getbootstrap.com/)
    - [Font-Awesome 4.7](https://fontawesome.com/v4.7.0/)
    - [Google Fonts](https://fonts.google.com/)
-   - [Javascript(https://www.javascript.com/)
+   - [Javascript](https://www.javascript.com/)
 
 <hr>
 
@@ -86,5 +86,5 @@ OpenSource | Free
 </p>
 
 <p align="right">
-  <img src="https://media.giphy.com/media/21JAB6c2Me9wG0E5pp/giphy.gif" height="40%" width="25%">
+  <img src="https://media.giphy.com/media/l378zf8b3gdqqVjIQ/giphy.gif" height="40%" width="25%">
 </p>
