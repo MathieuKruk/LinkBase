@@ -10,7 +10,7 @@
 <hr>
 
 <p align="center">
-  <img src="https://download.hipwallpaper.com/desktop/1920/1080/52/60/XlPYos.jpg">
+  <img src="./assets/img/network.png">
 </p>
 
 <hr>
